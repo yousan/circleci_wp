@@ -20,5 +20,7 @@ wp-content/plugins/hello.php
 
 
 /*
-!.gitignore
-!wp-content/themes
+wp-includes/
+wp-admin/
+!wp-content/
+!.gitignore!.gitignore
