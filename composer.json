@@ -7,5 +7,11 @@
             "email": "yousan@l2tp.org"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.4",
+        "johnpbloch/wordpress": "4.7.5"
+    },
+    "extra": {
+        "wordpress-install-dir": "public/wp"
+    }
 }
