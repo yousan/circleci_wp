@@ -1,0 +1,11 @@
+{
+    "name": "yousan/circleci_wp",
+    "description": "wordpress and circieci test",
+    "authors": [
+        {
+            "name": "Yousan",
+            "email": "yousan@l2tp.org"
+        }
+    ],
+    "require": {}
+}
