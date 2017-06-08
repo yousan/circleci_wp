@@ -14,6 +14,12 @@
     "extra": {
         "wordpress-install-dir": "public/wp"
     },
+    "post-install-cmd": {
+
+    },
+    "post-update-cmd": {
+
+    },
     "scripts": {
         "set-wp-content": [
             "rm -rf public/wp/wp-content/themes",
@@ -21,6 +27,12 @@
             "rm -rf public/wp/wp-content/plugins",
             "ln -s ../../../plugins public/wp/wp-content/",
             "cp etc/wp_gitignore public/wp/.gitignore"
-        ]
+        ],
+        "post-install-cmd": [
+            "composer set-wp-content"
+        ],
+        "post-update-cmd": [
+            "composer set-wp-content"
+        ],
     }
 }
