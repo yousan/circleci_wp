@@ -33,6 +33,6 @@
         ],
         "post-update-cmd": [
             "composer set-wp-content"
-        ],
+        ]
     }
 }
