@@ -13,5 +13,10 @@
     },
     "extra": {
         "wordpress-install-dir": "public/wp"
+    },
+    "scripts": {
+        "set-wp-content": [
+            "rm -rf public/wp/wp-content/themes; ln -s ../../../themes public/wp/wp-content/"
+        ]
     }
 }
