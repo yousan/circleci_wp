@@ -16,7 +16,11 @@
     },
     "scripts": {
         "set-wp-content": [
-            "rm -rf public/wp/wp-content/themes; ln -s ../../../themes public/wp/wp-content/"
+            "rm -rf public/wp/wp-content/themes",
+            "ln -s ../../../themes public/wp/wp-content/",
+            "rm -rf public/wp/wp-content/plugins",
+            "ln -s ../../../plugins public/wp/wp-content/",
+            "cp etc/wp_gitignore public/wp/.gitignore"
         ]
     }
 }
