@@ -20,3 +20,8 @@ wp-content/plugins/hello.php
 
 
 
+/*
+wp-includes/
+wp-admin/
+!wp-content/
+!.gitignore
