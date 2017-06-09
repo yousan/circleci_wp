@@ -13,6 +13,7 @@ jobs:
       - run: ls
       - run: pwd -P
       - run: composer self-update
+      - run: composer global require wp-cli
       - restore_cache:
           keys:
             - composer-v1-{{ checksum "composer.json" }}

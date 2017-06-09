@@ -27,6 +27,7 @@
             "rm -rf public/wp/wp-content/plugins",
             "ln -s ../../../plugins public/wp/wp-content/"
         ],
+
         "post-install-cmd": [
             "composer set-wp-content"
         ],
